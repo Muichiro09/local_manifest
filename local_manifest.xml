@@ -21,7 +21,7 @@
   <!-- Vendor Common Trees--> 
   <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_mt6768-common.git" remote="me" revision="lineage-20" clone-depth="1" />
   <!-- Hardware -->
-  <project path="hardware/mediatek" name="hardware_mediatek.git" remote="me" revision="main" clone-depth="1" />       
+  <project path="hardware/mediatek" name="hardware_mediatek.git" remote="me" revision="lineage-20" clone-depth="1" />       
   <!-- Clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d.git" remote="clang" revision="master" clone-depth="1" /> 
   <!-- Sepolicy -->
