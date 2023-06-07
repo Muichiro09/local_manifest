@@ -1,29 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="hub"
-        fetch="https://github.com" />
-<remote name="dev"
-        fetch="https://github.com/mt6768-dev" />
-<remote name="clang"  
-        fetch="https://gitlab.com/ImSurajxD"/>
-<remote name="me"
-         fetch="https://github.com/Zhyper0" />
-        
-        
-  <!-- Device Trees -->
-  <project path="device/xiaomi/lancelot" name="android_device_xiaomi_lancelot.git" remote="me" revision="Bootleg-13" clone-depth="1" />
-  <!-- Common Device Tree -->
-  <project path="device/xiaomi/mt6768-common" name="android_device_mt6768-common.git" remote="me" revision="los-20" clone-depth="1" />
-  <!-- Kernel Trees-->
-  <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768.git" remote="me" revision="lineage-20" clone-depth="1" />
-  <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/lancelot" name="proprietary_vendor_xiaomi_lancelot.git" remote="dev" revision="lineage-20" clone-depth="1" />
-  <!-- Vendor Common Trees--> 
-  <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_mt6768-common.git" remote="me" revision="lineage-20" clone-depth="1" />
-  <!-- Hardware -->
-  <project path="hardware/mediatek" name="hardware_mediatek.git" remote="me" revision="lineage-20" clone-depth="1" />       
-  <!-- Clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d.git" remote="clang" revision="master" clone-depth="1" /> 
-  <!-- Sepolicy -->
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="dev" revision="lineage-20" clone-depth="1" />
-  </manifest>
+
+      <remote name="susan"
+          fetch="https://github.com/susandahal" />        
+      <remote name="ImSurajxD"
+                fetch="https://gitlab.com/ImSurajxD" />
+            
+  <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="susan" revision="pixys-13"/>
+  <project path="vendor/xiaomi/surya" name="TheStrechh/android_vendor_xiaomi_surya" remote="github" revision="lineage-20" />
+  <project path="kernel/xiaomi/surya" name="TheStrechh/android_kernel_xiaomi_surya" remote="github" revision="staging/lineage-20" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="susan" revision="lineage-20" />
+  <project path="device/qcom/sepolicy_vndr-legacy-um" name="android_device_qcom_sepolicy_vndr" remote="susan" revision="lineage-20.0-legacy-um" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r416183b" name="LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b" remote="github" revision="lineage-20.0" /-->
+</manifest>
