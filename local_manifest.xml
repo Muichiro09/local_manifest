@@ -4,7 +4,7 @@
       <remote name="me"
           fetch="https://github.com/Muichiro09" />
       <remote name="clang"  
-        fetch="https://gitlab.com/ImSurajxD"/>
+        fetch="https://gitlab.com/crdroidandroid"/>
             
   <project path="device/xiaomi/surya" name="device_surya.git" remote="me" revision="superior-13.1" clone-depth="1" />
   <project path="vendor/xiaomi/surya" name="vendor_surya.git" remote="me" revision="lineage-20" clone-depth="1" />
