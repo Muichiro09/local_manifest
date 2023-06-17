@@ -3,7 +3,7 @@
 
       <remote name="me"
           fetch="https://github.com/Muichiro09" />
-     <remote  name="clang" fetch="https://github.com/kdrag0n"/>
+     <remote name="clang" fetch="https://github.com/kdrag0n"/>
             
 <project path="device/xiaomi/surya" name="nondevice_surya.git" remote="me" revision="los-eleven" clone-depth="1" />
 <project path="vendor/xiaomi/surya" name="nonvendor_surya.git" remote="me" revision="eleven-old" clone-depth="1" />
