@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-      <remote name="me"
-          fetch="https://github.com/Muichiro09" />
-     <remote name="clang" fetch="https://github.com/kdrag0n"/>
+<remote name="me"
+      fetch="https://github.com/Muichiro09" />
+<remote name="clang" fetch="https://github.com/kdrag0n"/>
+<remote name="lab" fetch="https://gitlab.com"/>
             
 <project path="device/xiaomi/surya" name="nondevice-surya.git" remote="me" revision="carbon-eleven" clone-depth="1" />
 <project path="vendor/xiaomi/surya" name="nonvendor_surya.git" remote="me" revision="eleven-old" clone-depth="1" />
 <project path="kernel/xiaomi/surya" name="Optimus_Surya.git" remote="me" revision="old" clone-depth="1" />
-<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1"/> 
+<!-- Clang -->
+<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" clone-depth="1"/>
 </manifest>
