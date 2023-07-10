@@ -6,8 +6,9 @@
       <remote name="clang"  
         fetch="https://gitlab.com/crdroidandroid" />
             
-  <project path="device/xiaomi/surya" name="device_surya.git" remote="me" revision="superior-13.1" clone-depth="1" />
-  <project path="vendor/xiaomi/surya" name="vendor_surya.git" remote="me" revision="lineage-20" clone-depth="1" />
-  <project path="kernel/xiaomi/surya" name="kernel_xiaomi_surya.git" remote="me" revision="13.0" clone-depth="1" />
+<project path="device/xiaomi/surya" name="device_xiaomi_surya.git" remote="me" revision="superior-13" clone-depth="1" />
+<project path="vendor/xiaomi/surya" name="vendor_xiaomi_surya.git" remote="me" revision="13.0" clone-depth="1" />
+<project path="kernel/xiaomi/surya" name="kernel_xiaomi_surya.git" remote="me" revision="13.0" clone-depth="1" />
 <project path="prebuilts/clang/host/linux-x86/clang-latest" name="android_prebuilts_clang_host_linux-x86_clang-r487747c.git" remote="clang" revision="13.0" clone-depth="1" /> 
+<project path="kernel/xiaomi/surya/kernelsu" name="KernelSU.git" remote="me" revision="main" clone-depth="1" />
 </manifest>
