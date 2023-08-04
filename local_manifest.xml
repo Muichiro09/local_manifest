@@ -9,8 +9,8 @@
           fetch="https://github.com" />
       <remote name="dev"
           fetch="https://github.com/xiaomi-surya" />
-      <remote name="blobs"  
-        fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
+      <remote name="stuffs"  
+        fetch="https://github.com/LineageOS" />
       <remote name="clang"  
         fetch="https://gitlab.com/Panchajanya1999" />
       
@@ -22,5 +22,6 @@
 <project path="kernel/xiaomi/surya" name="kernel_surya.git" remote="me" revision="lineage-20" clone-depth="1" />
 <project path="kernel/xiaomi/surya/KernelSU" name="KernelSU.git" remote="me" revision="main" clone-depth="1" />
 <project path="prebuilts/clang/host/linux-x86/azure" name="azure-clang.git" remote="clang" revision="main" clone-depth="1"/>
-<project path="hardware/xiaomi" name="hardware_xiaomi.git" remote="me" revision="lineage-20" clone-depth="1" />      
+<project path="hardware/xiaomi" name="hardware_xiaomi.git" remote="me" revision="lineage-20" clone-depth="1" /> 
+<project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay.git" remote="stuffs" revision="lineage-20.0" clone-depth="1" />
 </manifest>
