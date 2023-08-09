@@ -13,8 +13,6 @@
         fetch="https://github.com/LineageOS" />
       <remote name="clang"  
         fetch="https://gitlab.com/Panchajanya1999" />
-      <remote name="clang"  
-        fetch="https://gitlab.com/crdroidandroid" />
       
 <remove-project name="vendor_voltage" />
 <project path="vendor/voltage" name="vendor_voltage.git" remote="me" revision="13" clone-depth="1"/>
@@ -23,5 +21,5 @@
 <project path="vendor/xiaomi/surya" name="android_vendor_xiaomi_surya.git" remote="dev" revision="lineage-20" clone-depth="1" />
 <project path="kernel/xiaomi/surya" name="kernel_surya.git" remote="me" revision="lineage-20" clone-depth="1" />
 <project path="kernel/xiaomi/surya/KernelSU" name="KernelSU.git" remote="me" revision="main" clone-depth="1" />
-<project path="prebuilts/clang/host/linux-x86/clang-latest" name="android_prebuilts_clang_host_linux-x86_clang-r498229.git" remote="clang" revision="13.0" clone-depth="1"/>
+<project path="prebuilts/clang/host/linux-x86/azure" name="azure-clang.git" remote="clang" revision="main" clone-depth="1"/>
 </manifest>
