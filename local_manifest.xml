@@ -4,7 +4,7 @@
       <remote name="me"
           fetch="https://github.com/Muichiro09" />
       <remote name="miui"  
-        fetch="https://github.com/PixelExperience-Devices" />
+        fetch="https://gitlab.com/Muichiro09" />
       <remote name="hub"
           fetch="https://github.com" />
       <remote name="dev"
@@ -16,11 +16,10 @@
 		<remote name="blobs"  
         fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
            
-<project path="device/xiaomi/surya" name="device_surya.git" remote="me" revision="blaze-13" clone-depth="1" />
+<project path="device/xiaomi/surya" name="device_surya.git" remote="me" revision="test" clone-depth="1" />
 <project path="vendor/xiaomi/surya" name="vendor_surya.git" remote="me" revision="lineage-20" clone-depth="1" />
 <project path="kernel/xiaomi/surya" name="kernel_surya.git" remote="me" revision="lineage-20" clone-depth="1" />
 <project path="kernel/xiaomi/surya/KernelSU" name="KernelSU.git" remote="me" revision="main" clone-depth="1" />
 <project path="prebuilts/clang/host/linux-x86/azure" name="azure-clang.git" remote="clang" revision="main" clone-depth="1"/>
-<project path="device/xiaomi/surya-miuicamera" name="device_xiaomi_surya-miuicamera.git" remote="miui" revision="thirteen" clone-depth="1" />
-<project path="vendor/xiaomi/surya-miuicamera" name="vendor_xiaomi_surya-miuicamera.git" remote="blobs" revision="thirteen" clone-depth="1" />
+<project path="vendor/xiaomi/miuicamera" name="android_vendor_xiaomi_miuicamera.git" remote="miui" revision="13.1" clone-depth="1" />
 </manifest>
