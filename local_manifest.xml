@@ -20,6 +20,6 @@
 <project path="vendor/xiaomi/surya" name="vendor_surya.git" remote="me" revision="lineage-20" clone-depth="1" />
 <project path="kernel/xiaomi/surya" name="kernel_surya.git" remote="me" revision="lineage-20" clone-depth="1" />
 <project path="prebuilts/clang/host/linux-x86/azure" name="azure-clang.git" remote="clang" revision="main" clone-depth="1"/>
-<project path="device/xiaomi/surya-miuicamera" name="device_xiaomi_surya-miuicamera.git" remote="blobs" revision="thirteen" clone-depth="1" />
-<project path="vendor/xiaomi/surya-miuicamera" name="vendor_xiaomi_surya-miuicamera.git" remote="blobs" revision="thirteen" clone-depth="1" />
+<project path="device/xiaomi/surya-miuicamera" name="android_device_xiaomi_surya-miuicamera.git" remote="blobs" revision="thirteen" clone-depth="1" />
+<project path="vendor/xiaomi/surya-miuicamera" name="android_vendor_xiaomi_surya-miuicamera.git" remote="blobs" revision="thirteen" clone-depth="1" />
 </manifest>
