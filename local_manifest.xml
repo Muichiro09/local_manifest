@@ -12,15 +12,13 @@
       <remote name="blobs"  
         fetch="https://gitlab.com/honokascape" />
       
-<remove-project name="android_vendor_superior" />
-<project path="vendor/superior" name="vendor_superior.git" remote="me" revision="thirteen" clone-depth="1"/>
-      
-<project path="device/xiaomi/surya" name="device_surya.git" remote="me" revision="superior-13.1" clone-depth="1" />
+<remove-project name="hardware_xiaomi" />
+<project path="hardware/xiaomi" name="hardware_xiaomi.git" remote="me" revision="lineage-20" clone-depth="1" /> 
+<project path="device/xiaomi/surya" name="device_surya.git" remote="me" revision="blaze-vanilla" clone-depth="1" />
 <project path="vendor/xiaomi/surya" name="vendor_surya.git" remote="me" revision="lineage-20" clone-depth="1" />
 <project path="kernel/xiaomi/surya" name="kernel_surya.git" remote="me" revision="lineage-20" clone-depth="1" />
 <project path="kernel/xiaomi/surya/KernelSU" name="KernelSU.git" remote="me" revision="main" clone-depth="1" />
 <project path="prebuilts/clang/host/linux-x86/azure" name="azure-clang.git" remote="clang" revision="main" clone-depth="1"/>
-<project path="hardware/xiaomi" name="hardware_xiaomi.git" remote="me" revision="lineage-20" clone-depth="1" /> 
 <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay.git" remote="stuffs" revision="lineage-20.0" clone-depth="1" />
 <project path="device/xiaomi/surya-miuicamera" name="android_device_xiaomi_surya-miuicamera.git" remote="blobs" revision="thirteen" clone-depth="1" />
 <project path="vendor/xiaomi/surya-miuicamera" name="android_vendor_xiaomi_surya-miuicamera.git" remote="blobs" revision="thirteen" clone-depth="1" />
