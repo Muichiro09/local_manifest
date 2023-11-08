@@ -7,10 +7,10 @@
         fetch="https://gitlab.com/crdroidandroid" />
       <remote name="hub"
           fetch="https://github.com" />
-      <remote name="dev"
-          fetch="https://github.com/xiaomi-surya" />
-      <remote name="lab" 
-            fetch="https://gitlab.com"/>
+       <remote name="clang"  
+        fetch="https://gitlab.com/Panchajanya1999" />
+	<remote name="blobs"  
+        fetch="https://gitlab.com/honokascape" />
 
 <remove-project name="android_device_awaken_sepolicy" />
 <project path="device/awaken/sepolicy" name="awaken_sepolicy.git" remote="me" revision="triton" clone-depth="1"/>
