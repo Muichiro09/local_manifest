@@ -14,10 +14,6 @@
 
 <remove-project name="android_device_awaken_sepolicy" />
 <project path="device/awaken/sepolicy" name="awaken_sepolicy.git" remote="me" revision="triton" clone-depth="1"/>
-<remove-project name="LineageOS/android_hardware_interfaces" />
-<project path="hardware/interfaces" name="hardware_interfaces.git" remote="me" revision="thirteen" clone-depth="1"/>
-<remove-project name="LineageOS/android_vendor_qcom_opensource_vibrator" />
-<project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator.git" remote="me" revision="thirteen" clone-depth="1"/>
 <remove-project name="android_vendor_awaken" />
 <project path="vendor/awaken" name="vendor_awaken.git" remote="me" revision="triton" clone-depth="1"/>
 	
